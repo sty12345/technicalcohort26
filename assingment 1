@@ -1,0 +1,95 @@
+# #q1 print z
+# print("*****")
+# print("   *")
+# print("  *")
+# print(" *")
+# print("*****")
+
+# #q2 grading system
+# n=int(input("enter marks"))
+# if(n>90):
+#     print("excellent")
+# elif(n>80 and n<=90):
+#     print("good")
+# elif(n>70 and n<=80):
+#     print("fair")
+# elif(n>60 and n<=70):
+#     print("meets expectation")
+# elif(n<60):
+#     print("below")
+
+# #q3 is a prime
+# n=int(input("enter no"))
+# for i in range (2,n):
+#     if (n%i==0):
+#         print("non prime")
+#         break
+#     else:
+#         print("prime")
+#         break
+
+#q4 all primes
+# n=int(input("enter no"))
+# for m in range (2,n+1):
+#     for i in range (2,m) :
+#       if (n%i==0) :
+#        i=n
+#        break
+#     if (i!=n):
+#        print(n)
+
+#q5 count digits
+# n=int(input("enter number to count"))
+# count=0
+# while (n!=0):
+#     n=n//10
+#     count=count+1
+
+# print(count)
+    
+#q6 reverse a no
+# n=int(input("enter no"))
+# rev=0
+# while (n!=0):
+#     digit=n%10
+#     rev=rev*10+digit
+#     n //=10
+# print( "reversed",rev)
+
+#q7 inverse a no
+# import math
+# n=int(input("enter no"))
+# inv=0
+# power=0
+# while (n>0):
+#     digit=n%10
+#     n //=10
+#     inv+=power*math.pow(10,digit-1)
+#     power+=1
+# print( "inversed",inv)
+ 
+#q8gcd and lcm
+# a = int(input("enter 1st no"))
+# b= int(input("enter second no"))
+# tem1=a
+# tem2=b
+# while(a%b !=0):
+#     remainder=a%b
+#     a=b
+#     b=remainder
+# gcd=b
+# lcm=(tem1*tem2)/gcd
+# print("lcm of nos",lcm)
+# print("gcd of nos", gcd)
+
+#q9 prime fac
+# a= int (input ("enter no"))
+# for i in range(1,a+1):
+#     if(a%i==0 ):
+#       for m in range(2,i):
+#          if (i%m==0):
+#             print(i)
+        
+
+
+
